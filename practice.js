@@ -37,13 +37,19 @@
 // document.write(jsonObj2.info.name+'<br>')
 // document.write(jsonObj2.info.age+'<br>')
 // document.write(jsonObj2.phone+'<br>')
-// document.write(jsonObj2['phone']+'<br>')
-// document.write(jsonObj2['info']['name']+'<br>')
+// // document.write(jsonObj2['phone']+'<br>')
+// // document.write(jsonObj2['info']['name']+'<br>')
 
-const jsonStr ='{"pokemon":[{"name":"pikachu", "height":132},{"name":"lucky", "height":122}]}'
-const pokeName = JSON.parse(jsonStr)
-// for(i =0; i<pokeName.pokemon.length; i++){
-//     console.log(pokeName.pokemon[i].name)
-// }
-pokeName.pokemon.forEach((pokemons)=>console.log(pokemons.name)
-)
+// const jsonStr ='{"pokemon":[{"name":"pikachu", "height":132},{"name":"lucky", "height":122}]}'
+// const pokeName = JSON.parse(jsonStr)
+// // for(i =0; i<pokeName.pokemon.length; i++){
+// //     console.log(pokeName.pokemon[i].name)
+// // }
+// pokeName.pokemon.forEach((pokemons)=>document.write(`name:${pokemons.name}/height:${pokemons.height}<br>`))
+
+// JSON.stringify
+
+// const jsonObj = {"name":"soo", "age": 22, "bool":true}
+
+// const convdObj = JSON.stringify(jsonObj)
+// console.log(convdObj)
