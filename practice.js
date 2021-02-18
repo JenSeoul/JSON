@@ -53,13 +53,28 @@
 // const convdObj = JSON.stringify(jsonObj)
 // console.log(convdObj)
 
-const people = [{name:"John", age:32}, {name:"Jimmy", age:22},{name:"Brianna", age:42}]
+// const people = [{name:"John", age:32}, {name:"Jimmy", age:22},{name:"Brianna", age:42}]
 
 // let output = '';
 // for(let i=0; i< people.length; i++){
 //     // output += '<li>'+people[i].name+'</li>'
 //     output += `<li>${people[i].name}</li>`
 // }
-// people.forEach((peoples)=> output += `<li>name:${peoples.name}</li>`)
+// // people.forEach((peoples)=> output += `<li>name:${peoples.name}</li>`)
 
-// document.querySelector('#list').innerHTML = output
+// // document.querySelector('#list').innerHTML = output
+
+// let output = ''
+
+// var xhttp = new XMLHttpRequest();
+// xhttp.onreadystatechange = function() {
+//     if (this.readyState == 4 && this.status == 200) {
+//         let response =JSON.parse(xhttp.responseText);
+//         response.people.forEach((individuals)=> output += `<li>${individuals.name}</li>`)
+//         document.querySelector('#list').innerHTML = output;
+//     }
+// };
+// xhttp.open("GET", "people.json", true);
+// xhttp.send();
+
+
