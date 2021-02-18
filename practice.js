@@ -48,8 +48,18 @@
 // pokeName.pokemon.forEach((pokemons)=>document.write(`name:${pokemons.name}/height:${pokemons.height}<br>`))
 
 // JSON.stringify
-
 // const jsonObj = {"name":"soo", "age": 22, "bool":true}
 
 // const convdObj = JSON.stringify(jsonObj)
 // console.log(convdObj)
+
+const people = [{name:"John", age:32}, {name:"Jimmy", age:22},{name:"Brianna", age:42}]
+
+// let output = '';
+// for(let i=0; i< people.length; i++){
+//     // output += '<li>'+people[i].name+'</li>'
+//     output += `<li>${people[i].name}</li>`
+// }
+// people.forEach((peoples)=> output += `<li>name:${peoples.name}</li>`)
+
+// document.querySelector('#list').innerHTML = output
